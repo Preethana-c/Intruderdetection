@@ -70,6 +70,8 @@ data_dims_t filter_dims = {
  .width = filter_width, .height = filter_height,
  .channels = 0, .extra = 0
 };
+```
+
 
 Ensure these changes are reflected in the files you downloaded from Edge Impulse. If you encounter issues, it's advisable to apply these changes manually.
 Usage
