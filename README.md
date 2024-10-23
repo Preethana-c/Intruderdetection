@@ -77,7 +77,8 @@ Ensure these changes are reflected in the files you downloaded from Edge Impulse
 Usage
 After uploading the code and deploying the model, open the Serial Monitor in Arduino IDE to view the IP address assigned to the ESP32-CAM. The model will process the incoming video stream and perform inference, detecting any intrusions based on the trained model's predictions.
 
-How It Works
+## How It Works
 The ESP32-CAM utilizes a machine learning model trained to detect intrusions. The model is developed using Edge Impulse for data acquisition and training. Once deployed to the ESP32, it processes the incoming video stream in real time and identifies any intruders based on the model's predictions. The results of the predictions are displayed in the Serial Monitor of the Arduino IDE, allowing users to monitor detected intrusions effectively.
+
 
 
