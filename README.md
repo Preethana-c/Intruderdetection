@@ -55,7 +55,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ### Code Modification:
 - Make the following changes in `conv.cpp` and `depthwise_conv.cpp` files:
 
-'''cpp
+```cpp
 data_dims_t input_dims = {
  {.width = input_width, .height = input_height,
   .channels = input_depth, .extra = 1}
